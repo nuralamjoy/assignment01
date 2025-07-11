@@ -6,6 +6,9 @@
     font-family: 'Fira Sans', sans-serif;
     transition: all .3s linear;
 }
+body{
+    background-color: #F5F8FF;
+}
 .container{
    width: 1140px;
    margin: 0 auto;  
@@ -100,4 +103,41 @@ nav button{
 .about .text button{
     margin-top: 10px;
     padding: 10px 30px;
+}
+
+.progress{
+    background-color: #E5E7FF;
+    height: 306px;
+    border-radius: 24px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 80px;
+}
+.content{
+    width: 856px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.progress h3{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.progress .info{
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.info h2{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.info p{
+    font-size: 16px;
+    color: #6e6e6f;
+    /* background-color: #4E47FF; */
+    
+}
+.active{
+    text-align: center;
 }
